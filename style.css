@@ -1,0 +1,211 @@
+body {
+    background-color: rgb(60, 38, 115);
+}
+
+header {
+    display: flex;
+    background: url(https://media1.tenor.com/m/hQf67dAWzksAAAAC/space.gif);
+    color: white;
+    padding: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+}
+
+.lgs {
+    display: flex;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+}
+
+main {
+    display: flex;
+    background: url(https://media1.tenor.com/m/hQf67dAWzksAAAAC/space.gif);
+    padding: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+main ul {
+    width: 300px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cmp_volume {
+    position: relative; /* Set position to relative for the track */
+    width: 10px; /* Set width for the volume track */
+    height: 100px; /* Set height for the volume track */
+    background-color: #ccc; /* Background color for the track */
+}
+
+#s1 {
+    background: url(https://web.archive.org/web/20091027083423im_/http://www.geocities.com/SiliconValley/Bay/6893/old/disk4.gif);
+    width: 30px; 
+    height: 37px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: 273px;
+    top: -106px;
+    cursor: pointer;
+}
+
+#s2 {
+    background: url(https://web.archive.org/web/20091019005917/http://www.geocities.com/r_ayana/ufoflash.gif);
+    width: 93px;
+    height: 41px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: -273px;
+    top: -106px;
+    cursor: pointer;
+}
+
+#desabafosbtn {
+    background: url(text.gif);
+    width: 249px;
+    height: 53px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.area {
+    height: 100dvh;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 20;
+    background: #00000070;
+}
+
+table {
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+td {
+    flex-grow: 1;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background:  url(campoMinadoNull2.png) no-repeat;    
+    background-size: 100%;
+
+}
+.blocked, .flag {
+    background:  url(campoMinadoNull.png) no-repeat;    
+    background-size: 100%;
+}
+.n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8 {
+    background-color: #eee;
+}
+.n1 {
+    color: blue;
+    background:  url(campoMinado1.png) no-repeat;    
+    background-size: 100%;
+}
+.n2 {
+    color: blue;
+    background:  url(campoMinado2.png) no-repeat;    
+    background-size: 100%;
+}
+.n3 {
+    color: red;
+    background:  url(campoMinado3.png) no-repeat;    
+    background-size: 100%;
+}
+.n4 {
+    color: maroon;
+    background:  url(campoMinado3.png) no-repeat;    
+    background-size: 100%;
+}
+.n5 {
+    color: blueviolet;
+}
+.n6 {
+    color: darkgoldenrod;
+}
+.n7 {
+    color: orange;
+}
+.n8 {
+    color: tomato;
+}
+
+.bomba {
+    background:  url(campoMinadoBomb.png) no-repeat;    
+    background-size: 100%;
+}
+
+.flag {
+    background:  url(campoMinadoFlag1.png) no-repeat;    
+    background-size: 100%;
+}
+
+.flag-invalid {
+    background:  url(campoMinadoFlag1.png) no-repeat;    
+    background-size: 100%;
+}
+
+#musicP {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+tr {
+
+    display: flex;
+
+}
+/* Media query for screens smaller than 700px */
+@media (max-width: 700px) {
+
+    #hrC {
+
+        width: 90dvw;
+
+    }
+
+    #s1 {
+        background: url(https://web.archive.org/web/20091027083423im_/http://www.geocities.com/SiliconValley/Bay/6893/old/disk4.gif);
+        width: 30px; 
+        height: 37px;
+        border: none;
+        background-color: transparent;
+        position: relative;
+        left: 150px;
+        top: -106px;
+        cursor: pointer;
+    }
+
+    #musicP {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: scale(80%);
+        
+    }
+
+    #games {
+
+        transform: scale(95%);
+
+    }
+
+}
